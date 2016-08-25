@@ -1,0 +1,21 @@
+{
+    "name": "evgeniy-n/laravel-hip-chat",
+    "description": "Wrapper for HipChat v2 API package",
+    "authors": [
+        {
+            "name": "Evgeniy N",
+            "email": "john.ask.later@gmail.com"
+        }
+    ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.2.x",
+    "gorkalaucirica/hipchat-v2-api-client": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "EvgeniyN\\LaravelHipChat\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
